@@ -1,23 +1,10 @@
 <!-- Core js -->
 <script src="{{ root }}assets/js/app.js"></script>
-<script src="{{ root }}assets/js/particlesjs/particles.min.js"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script src="{{ root }}assets/js/aos/aos.js"></script>
-
 <script src="{{ root }}assets/js/timer.js"></script>
 <script src="{{ root }}assets/js/timeline.js"></script>
 <script src="{{ root }}assets/js/roadmap.js"></script>
 <script src="{{ root }}assets/js/main.js" defer="defer"></script>
-<script async>(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m)[0];j.async=1;j.src=o;j.dataset.sumoSiteId='25a961e3d9717ac2b8f0220a2fbd6f6963914a63716497785e6dfca62c1f837f';v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');</script>
-<script type="text/javascript">
-    (function () {
-        var options = {
-            facebook: "130136700527470", // Facebook page ID
-            call_to_action: "Message me", // Call to action
-            position: "right", // Position may be 'right' or 'left'
-        };
-        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
-        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-    })();
-</script>
+<script src="{{ root }}assets/js/sumo.js" async></script>
+<script src="{{ root }}assets/js/chat.js" async></script>
