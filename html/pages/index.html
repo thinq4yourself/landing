@@ -166,7 +166,7 @@ title: Home
                             <div class="divider is-long"></div>
                             <p class="is-light">My core efforts revolve around empowering you to embark on your self work and to take your life to the next level. I believe that through tapping into our own power, healing, happiness and creativity, our inherent nature is to help others find their healing, happiness and creativity. This, I believe, is our ultimate human potential to ascend into pure light to manifest our dreams.</p>
                             <div class="cta-wrapper">
-                                <a href="#contact" class="button k-button k-primary raised has-gradient is-bold">
+                                <a href="javascript:void(0)" data-sumome-listbuilder-id="3c9b4ece-02e9-4f99-854a-7b479e529f71" class="button k-button k-primary raised has-gradient is-bold">
                                     <span class="text">Learn More</span>
                                     <span class="front-gradient"></span>
                                 </a>
@@ -194,7 +194,7 @@ title: Home
                             <div class="divider is-long"></div>
                             <p class="is-light">I want you to be part of the positive movement in expanding consciousness – the one that removes traditional hurdles and replaces them with colorful trampolines where your gifts spill over. Quite simply, I want to help you liberate yourself from the limitations that keep your powerful gifts unopened and unshared with the world.</p>
                             <div class="cta-wrapper">
-                                <a href="#contact" class="button k-button k-primary raised has-gradient is-bold">
+                                <a href="javascript:void(0)" data-sumome-listbuilder-id="3c9b4ece-02e9-4f99-854a-7b479e529f71" class="button k-button k-primary raised has-gradient is-bold">
                                     <span class="text">Get In Touch</span>
                                     <span class="front-gradient"></span>
                                 </a>
@@ -434,29 +434,33 @@ title: Home
                         <form class="contact-form">
                             <!-- Field -->
                             <div class="control-material is-secondary">      
-                                <input class="material-input " type="text" required>
+                                <input class="material-input " type="text">
                                 <span class="material-highlight"></span>
                                 <span class="bar"></span>
                                 <label>Name</label>
                             </div>
                             <!-- Field -->
                             <div class="control-material is-secondary">      
-                                <input class="material-input " type="email" required>
+                                <input class="material-input" value type="email" name="contactform_email_address" id="contactform_email_address" required>
                                 <span class="material-highlight"></span>
                                 <span class="bar"></span>
                                 <label>Email</label>
                             </div>
                             <!-- Field -->
                             <div class="control-material is-secondary">  
-                                <textarea rows="3"></textarea>
+                                <textarea rows="3" value name="contactform_message" id="contactform_message" required></textarea>
                                 <span class="material-highlight"></span>
                                 <span class="bar"></span>
                                 <label>Message </label>
                             </div>
 
                             <!-- Submit -->
+                            <input name="hash" class="sumome-contactform-hash" type="hidden" value="b9a4e146755f538117aeffb48c4c1c20">
+                            <input name="uuid" class="sumome-contactform-uuid" type="hidden" value="6066562c-c4aa-47ce-a282-f0a5c0e0e875">
+                            <input name="timestamp" class="sumome-contactform-timestamp" type="hidden" value="1534272806000">
+                            <input name="msgpot" class="sumome-contactform-msgpot" type="text" style="display:none;">
                             <div class="has-text-centered">
-                                <button class="button is-button k-button k-primary raised has-gradient is-fat is-bold is-submit">
+                                <button class="button is-button k-button k-primary raised has-gradient is-fat is-bold is-submit sumome-contactform-button">
                                     <span class="text">Send message</span>
                                     <span class="front-gradient"></span>
                                 </button>
