@@ -44,6 +44,7 @@
     "jquery": "2.2.4",
     "jquery.easing": "^1.4.1",
     "modal-video": "^2.3.2",
-    "particlesjs": "2.2.0"
+    "particlesjs": "2.2.0",
+    "slick-carousel": "^1.8.1"
   }
 }

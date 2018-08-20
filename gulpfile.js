@@ -67,6 +67,9 @@ gulp.task('copy', function() {
     gulp.src(['assets/css/*.css']).pipe(gulp.dest('_site/assets/css/'));
     //Copy other external font assets
     gulp.src(['assets/fonts/*']).pipe(gulp.dest('_site/assets/fonts/'));
+    // Slick carousel
+    gulp.src([nodepath + 'slick-carousel/slick/fonts/**/*']).pipe(gulp.dest('_site/assets/css/fonts/'));
+    gulp.src([nodepath + 'slick-carousel/slick/ajax-loader.gif']).pipe(gulp.dest('_site/assets/css/'));
 });
 
 //Theme Sass variables
@@ -82,6 +85,18 @@ var scssOptions = {
     outputStyle: 'compressed',
     includePaths: ['./scss/partials']
 };
+
+
+// Compile css from node modules
+gulp.task('compile-css', function() {
+    return gulp.src([ 
+        nodepath + 'slick-carousel/slick/slick.css',
+        nodepath + 'slick-carousel/slick/slick-theme.css',
+    ])
+        .pipe(concat('app.css'))
+        .pipe(gulp.dest('./_site/assets/css/'));
+});
+
 
 // Compile Bulma Sass
 gulp.task('compile-sass', function () {
@@ -164,6 +179,7 @@ gulp.task('compile-js', function() {
         nodepath + 'feather-icons/dist/feather.min.js',
         nodepath + 'modal-video/js/modal-video.min.js',
         nodepath + 'jquery.easing/jquery.easing.min.js',
+        nodepath + 'slick-carousel/slick/slick.min.js', 
     ])
         .pipe(concat('app.js'))
         .pipe(gulp.dest('./_site/assets/js/'));
@@ -189,5 +205,5 @@ gulp.task('copy-images', function() {
 });
 
 gulp.task('init', ['setupBulma']);
-gulp.task('build', ['clean','copy', 'copy-plugins', 'compile-js', 'copy-js', 'compile-sass', 'compile-scss', 'compile-html', 'copy-fonts', 'copy-images']);
+gulp.task('build', ['clean','copy', 'copy-plugins', 'compile-css', 'compile-js', 'copy-js', 'compile-sass', 'compile-scss', 'compile-html', 'copy-fonts', 'copy-images']);
 gulp.task('default', ['server', 'watch']);

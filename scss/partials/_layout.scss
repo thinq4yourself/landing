@@ -160,19 +160,23 @@ body {
             min-height: 4rem !important;
             background: $white;
             box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
-            a {
-                color: $dark-text;
-                &:hover {
-                    color: $primary;
+            &.is-nav-link {
+                a {
+                    color: $dark-text;
+                    &:hover {
+                        color: $primary;
+                    }
                 }
             }
             //Dark modifier
             &.is-dark {
                 background: #2d0275 !important;
-                a {
-                    color: $white;
-                    &:hover {
-                        color: #fcfcfc;
+                &.is-nav-link {
+                    a {
+                        color: $white;
+                        &:hover {
+                            color: #fcfcfc;
+                        }
                     }
                 }
                 .navbar-menu {
@@ -1102,26 +1106,26 @@ body {
         .intro {
             font-style: italic;
             font-family: 'Cabin', sans-serif;
-            color: $white;
+            color: $blue-grey;
             opacity: 0.8;
         }
         h2 {
             font-family: 'Cabin', sans-serif;
             font-size: 1.5rem;
-            color: $white;
+            color: $blue-grey;
             padding: 10px 0;
         }
         p {
             font-family: 'Cabin', sans-serif;
             font-size: .9rem;
-            color: $white;
+            color: $coal;
             padding-bottom: 20px;
             opacity: 0.7;
         }
         blockquote {
             padding: 0 20px;
             border-left: 3px solid $primary;
-            color: $white;
+            color: $blue-grey;
             opacity: 0.6;
             margin-bottom: 20px;
         }
