@@ -7,10 +7,15 @@
 <script src="{{ root }}assets/js/roadmap.js"></script>
 <script src="{{ root }}assets/js/main.js" defer="defer"></script>
 <script src="{{ root }}assets/js/sumo.js" async></script>
-<script src="{{ root }}assets/js/chat.js" async></script>
 <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
-<script>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div class="fb-customerchat"
   attribution=setup_tool
   page_id="130136700527470"
