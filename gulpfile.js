@@ -11,6 +11,7 @@ var panini = require('panini');
 var concat = require('gulp-concat');
 var port = process.env.SERVER_PORT || 8080;
 var nodepath =  'node_modules/';
+var assetspath =  'assets/';
 
 // Starts a BrowerSync instance
 gulp.task('server', ['build'], function(){
@@ -92,6 +93,7 @@ gulp.task('compile-css', function() {
     return gulp.src([ 
         nodepath + 'slick-carousel/slick/slick.css',
         nodepath + 'slick-carousel/slick/slick-theme.css',
+        assetspath + 'css/icons.min.css',
     ])
         .pipe(concat('app.css'))
         .pipe(gulp.dest('./_site/assets/css/'));
@@ -179,7 +181,10 @@ gulp.task('compile-js', function() {
         nodepath + 'feather-icons/dist/feather.min.js',
         nodepath + 'modal-video/js/modal-video.min.js',
         nodepath + 'jquery.easing/jquery.easing.min.js',
-        nodepath + 'slick-carousel/slick/slick.min.js', 
+        nodepath + 'slick-carousel/slick/slick.min.js',
+        //Additional static js assets
+        assetspath + 'js/ggpopover/ggpopover.min.js',
+        assetspath + 'js/ggpopover/ggtooltip.js',
     ])
         .pipe(concat('app.js'))
         .pipe(gulp.dest('./_site/assets/js/'));
@@ -196,6 +201,7 @@ gulp.task('copy-fonts', function() {
     //Cryptofont
     gulp.src([nodepath + 'cryptofont/css/**/*']).pipe(gulp.dest('_site/assets/fonts/cryptofont/css/'));
     gulp.src([nodepath + 'cryptofont/fonts/**/*']).pipe(gulp.dest('_site/assets/fonts/cryptofont/fonts/'));
+    gulp.src(['assets/fonts/**/*']).pipe(gulp.dest('_site/assets/fonts/'));
 });
 
 //Copy images to production site

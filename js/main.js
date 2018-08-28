@@ -132,6 +132,28 @@ $(document).ready(function() {
         }
     })
 
+    /*/ Popovers init
+    if ($('[data-toggle="popover"]').length) {
+        $('[data-toggle="popover"]').ggpopover();
+    }
+
+    // tooltips init
+    if ($('[data-toggle="tooltip"]').length) {
+        $('[data-toggle="tooltip"]').ggtooltip();
+    }
+    */
+
+    //Scrollspy nav init
+    if ($('#scrollnav').length) {
+        var sticky = new Waypoint.Sticky({
+            element: $('#scrollnav')[0]
+        })
+        $(".scrollnav-tabs").scrollspy({ 
+            offset: -25,
+            activeClass: 'is-active'
+        });
+    }
+
     //Aos
     AOS.init();
 
@@ -178,6 +200,23 @@ $(document).ready(function() {
                 });
             }
         }
+    });
+
+    // Back to Top button behaviour
+    var pxShow = 600;
+    var scrollSpeed = 500;
+    $(window).on('scroll', function() {
+        if ($(window).scrollTop() >= pxShow) {
+            $("#backtotop").addClass('visible');
+        } else {
+            $("#backtotop").removeClass('visible');
+        }
+    });
+    $('#backtotop a').on('click', function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, scrollSpeed);
+        return false;
     });
 
     $('.like-button').on('click', function(){

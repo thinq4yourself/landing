@@ -4,3 +4,7 @@ node_modules
 npm-debug.log
 _site
 .sass-cache
+blog*.html
+*.original.html
+roadmap.html
+tokens.html

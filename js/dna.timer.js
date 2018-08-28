@@ -6,7 +6,7 @@ $(document).ready(function() {
  * GLOBAL VARS
  * -------------------------- */
     // The date you want to count down to
-    var targetDate = new Date("2018/06/25 00:00:00");   
+    var targetDate = new Date("2018/11/01 11:11:11");   
 
     // Other date related variables
     var days;
@@ -21,10 +21,10 @@ $(document).ready(function() {
         // Calculate time until launch date
         timeToLaunch();
         // Transition the current countdown from 0 
-        numberTransition('#days .timer-number', days, 1000, 'easeOutQuad');
-        numberTransition('#hours .timer-number', hrs, 1000, 'easeOutQuad');
-        numberTransition('#minutes .timer-number', min, 1000, 'easeOutQuad');
-        numberTransition('#seconds .timer-number', sec, 1000, 'easeOutQuad');
+        numberTransition('#dna-days .timer-number', days, 1000, 'easeOutQuad');
+        numberTransition('#dna-hours .timer-number', hrs, 1000, 'easeOutQuad');
+        numberTransition('#dna-minutes .timer-number', min, 1000, 'easeOutQuad');
+        numberTransition('#dna-seconds .timer-number', sec, 1000, 'easeOutQuad');
         // Begin Countdown
         setTimeout(countDownTimer,1001);
     });
@@ -64,10 +64,10 @@ $(document).ready(function() {
         timeToLaunch();
 
         // Write to countdown component
-        $( "#days .timer-number" ).text(days);
-        $( "#hours .timer-number" ).text(hrs);
-        $( "#minutes .timer-number" ).text(min);
-        $( "#seconds .timer-number" ).text(sec);
+        $( "#dna-days .timer-number" ).text(days);
+        $( "#dna-hours .timer-number" ).text(hrs);
+        $( "#dna-minutes .timer-number" ).text(min);
+        $( "#dna-seconds .timer-number" ).text(sec);
 
         // Repeat the check every second
         setTimeout(countDownTimer,1000);
