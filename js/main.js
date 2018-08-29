@@ -224,30 +224,6 @@ $(document).ready(function() {
         $('.like-button svg').toggleClass('gelatine');
     })
 
-    // Facebook Payments
-    $('.lightarian-rays-client-payment').on('click', function(){
-        FB.ui(
-            {
-            method: 'pay',
-            action: 'purchaseiap',
-            product_id: 'com.fb.lightarian_rays_client',
-            developer_payload: 'think_for_yourself_og_payment_request_lightarian_rays_client'
-            },
-            response => (console.log(response)) // Callback function
-        );
-    })
-    $('.lightarian-clearing-client-payment').on('click', function(){
-        FB.ui(
-            {
-            method: 'pay',
-            action: 'purchaseiap',
-            product_id: 'com.fb.lightarian_clearing_client',
-            developer_payload: 'think_for_yourself_og_payment_request_lightarian_clearing_client'
-            },
-            response => (console.log(response)) // Callback function
-        );
-    })
-
         //Basic slick carousel (testimonials)
         if ($('.testimonials').length) {
             $('.testimonials').slick({
