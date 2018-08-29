@@ -68,6 +68,8 @@ gulp.task('copy', function() {
     gulp.src(['assets/css/*.css']).pipe(gulp.dest('_site/assets/css/'));
     //Copy other external font assets
     gulp.src(['assets/fonts/*']).pipe(gulp.dest('_site/assets/fonts/'));
+    //Copy other external font assets
+    gulp.src(['html/pages/.well-known/*']).pipe(gulp.dest('_site/.well-known/'));
     // Slick carousel
     gulp.src([nodepath + 'slick-carousel/slick/fonts/**/*']).pipe(gulp.dest('_site/assets/css/fonts/'));
     gulp.src([nodepath + 'slick-carousel/slick/ajax-loader.gif']).pipe(gulp.dest('_site/assets/css/'));
