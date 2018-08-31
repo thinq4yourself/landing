@@ -183,7 +183,8 @@ transition: all 0.3s;
                 color: $white;
             }
         img {
-            max-height: inherit !important;
+            /* max-height: inherit !important; */
+            max-height: 2rem;
         }
         }
     }

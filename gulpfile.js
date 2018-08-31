@@ -73,6 +73,8 @@ gulp.task('copy', function() {
     // Slick carousel
     gulp.src([nodepath + 'slick-carousel/slick/fonts/**/*']).pipe(gulp.dest('_site/assets/css/fonts/'));
     gulp.src([nodepath + 'slick-carousel/slick/ajax-loader.gif']).pipe(gulp.dest('_site/assets/css/'));
+    //Copy PDFs
+    gulp.src(['assets/lightarian/*']).pipe(gulp.dest('_site/assets/lightarian/'));
 });
 
 //Theme Sass variables
