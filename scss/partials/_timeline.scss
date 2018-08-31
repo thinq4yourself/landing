@@ -73,9 +73,14 @@ TABLE OF CONTENTS
         -webkit-transition: -webkit-transform 0.4s;
         -moz-transition: -moz-transform 0.4s;
         transition: transform 0.4s;
+        li:first-child {
+            a {
+                left: 22px !important;
+            }
+        }
         a {
             position: absolute;
-            width: 55px;
+            min-width: 66px;
             bottom: 0;
             z-index: 2;
             text-align: center;
@@ -466,4 +471,11 @@ TABLE OF CONTENTS
         -o-transform: translateX(0%);
         transform: translateX(0%);
     }
+}
+
+.events-content .im {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #3cf3cf;
+    transition: all .3s;
 }

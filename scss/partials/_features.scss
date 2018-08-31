@@ -125,12 +125,13 @@ TABLE OF CONTENTS
 
 //Container
 .flying-tabs-container {
-    max-width: 560px;
+    max-width: 85%;
     margin: 0 auto;
     //tabs
     .flying-tabs {
         //tab-item
         .flying-child {
+            width: auto;
             display: inline;
             text-align: center;
             &.is-active a {
@@ -156,21 +157,27 @@ TABLE OF CONTENTS
         }
 
         .tab-2.is-active ~ .slider {
-            margin-left: 25%;
+            margin-left: 16.6%;
         }
 
         .tab-3.is-active ~ .slider {
-            margin-left: 50%;
+            margin-left: 33.6%;
         }
 
         .tab-4.is-active ~ .slider {
-            margin-left: 75%;
+            margin-left: 50.2%;
+        }
+        .tab-5.is-active ~ .slider {
+            margin-left: 66.8%;
+        }
+        .tab-6.is-active ~ .slider {
+            margin-left: 83.4%;
         }
         //Flying underline
         .slider {
             height: 2px;
             border-radius: 10px;
-            width: 25%;
+            width: 16.6%;
             margin: 0;
             @include primary-gradient-top();
             border: none;

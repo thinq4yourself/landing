@@ -1,5 +1,5 @@
 <!-- Static navbar -->
-<nav class="navbar is-dark">
+<nav class="navbar is-dark navbar-wrapper">
     <div class="container">
         <!-- Brand -->
         <div class="navbar-brand">
@@ -22,8 +22,42 @@
                     <a class="is-centered-responsive" href="/#home">Home</a>
                 </div>
                 <!-- Menu item -->
-                <div class="navbar-item is-nav-link">
-                        <a class="is-centered-responsive" href="/#healing">Healing</a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link" href="/#healing">
+                        Healing
+                    </a>
+                    <div class="navbar-dropdown is-boxed">
+                        <!-- Dropdown item -->
+                        <a class="navbar-item is-menu" href="/#healing">
+                            <i class="im im-icon-Inifity"></i>
+                            <span>Healing Home</span>
+                        </a>
+                        <!-- Dropdown item -->
+                        <a class="navbar-item is-menu" href="/healing/reiki">
+                            <i class="im im-icon-Hand"></i>
+                            <span>Reiki Healing</span>
+                        </a>
+                        <!-- Dropdown item -->
+                        <a class="navbar-item is-menu" href="/#healing">
+                            <i class="im im-icon-Bell"></i>
+                            <span>Sound & Biofield Healing</span>
+                        </a>
+                        <!-- Dropdown item -->
+                        <a class="navbar-item is-menu" href="/#healing">
+                            <i class="im im-icon-Eci-Icon"></i>
+                            <span>Mindfulness & Meditation</span>
+                        </a>
+                        <!-- Dropdown item -->
+                        <a class="navbar-item is-menu" href="/#healing">
+                            <i class="im im-icon-Atom"></i>
+                            <span>Energy Medicine</span>
+                        </a>
+                        <!-- Dropdown item -->
+                        <a class="navbar-item is-menu" href="https://squareup.com/appointments/buyer/widget/73117614-736e-4376-9c3a-969b6bb5e89c/FQ7Q6DG237ABT" target="_blank">
+                            <i class="im im-icon-D-Eyeglasses"></i>
+                            <span>Free Discovery Session</span>
+                        </a>
+                    </div>
                 </div>
                 <!-- Menu item -->
                 <div class="navbar-item is-nav-link">
@@ -33,53 +67,34 @@
                 <div class="navbar-item is-nav-link">
                     <a class="is-centered-responsive" href="/#mission">Mission </a>
                 </div>
-                <div class="navbar-item has-dropdown is-hoverable is-hidden">
-                    <a class="navbar-link" href="#demos">
-                        Specialties
-                    </a>
-                    <div class="navbar-dropdown is-boxed is-medium">
-                        <!-- Dropdown item -->
-                        <a class="navbar-item is-menu" href="#biofield.html">
-                            <span>Sound & Biofield Healing</span>
-                        </a>
-                        <!-- Dropdown item -->
-                        <a class="navbar-item is-menu" href="#mindfulness.html">
-                            <span>Mindfulness & Meditation</span>
-                        </a>
-                        <!-- Dropdown item -->
-                        <a class="navbar-item is-menu" href="#energy.html">
-                            <span>Energy Medicine</span>
-                        </a>
-
-                    </div>
-                </div>
-                <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-link" href="#program">
+                <div class="navbar-item has-dropdown is-hoverable is-hidden-desktop">
+                    <a class="navbar-link is-nav-link" href="#program">
                         Systems
                     </a>
-                    <div class="navbar-dropdown is-boxed is-medium">
+                    <div class="navbar-dropdown is-boxed is-medium light-pad">
                         <!-- Dropdown item -->
-                        <a class="navbar-item is-menu" href="/lightarian">
+                        <a class="navbar-item is-menu is-nav-link" href="/lightarian">
                             <span>Lightarian Healing & Clearing</span>
                         </a>
                         <!-- Dropdown item -->
-                        <a class="navbar-item is-menu" href="/lightarian/reiki">
+                        <a class="navbar-item is-menu is-nav-link" href="/lightarian/reiki">
                             <span>Lightarian & Usui Reiki</span>
                         </a>
                         <!-- Dropdown item -->
-                        <a class="navbar-item is-menu" href="/lightarian/training">
+                        <a class="navbar-item is-menu is-nav-link" href="/lightarian/training">
                             <span>Lightarian Training</span>
                         </a>
                         <!-- Dropdown item -->
-                        <a class="navbar-item is-menu" href="/jedi">
+                        <a class="navbar-item is-menu is-nav-link" href="/jedi">
                             <span>Jedi Training</span>
                         </a>
                         <!-- Dropdown item -->
-                        <a class="navbar-item is-menu" href="/dna">
+                        <a class="navbar-item is-menu is-nav-link" href="/dna">
                             <span>DNA Activations</span>
                         </a>
                     </div>
                 </div>
+                {{> megamenu}}
                 <!-- Sign up -->
                 <div class="navbar-item">
                     <a href="#" data-sumome-listbuilder-id="3c9b4ece-02e9-4f99-854a-7b479e529f71" class="open-messenger wh-widget-button-activator button k-button k-primary raised has-gradient slanted">

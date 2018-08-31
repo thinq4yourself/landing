@@ -149,7 +149,7 @@ $(document).ready(function() {
             element: $('#scrollnav')[0]
         })
         $(".scrollnav-tabs").scrollspy({ 
-            offset: -25,
+            offset: -55,
             activeClass: 'is-active'
         });
     }

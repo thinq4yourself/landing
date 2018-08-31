@@ -12,7 +12,6 @@
     "gulp-postcss": "^6.1.0",
     "gulp-sass": "^2.2.0",
     "gulp-sourcemaps": "^1.6.0",
-    "jquery": "~3",
     "mq4-hover-shim": "^0.3.0",
     "panini": "^1.3.0",
     "popper.js": "^1.12.3",
@@ -41,10 +40,12 @@
     "bulma": "^0.6.2",
     "cryptofont": "^0.1.1",
     "feather-icons": "^4.7.0",
-    "jquery": "2.2.4",
+    "jquery": "~3",
+    "jquery-waypoints": "^2.0.5",
     "jquery.easing": "^1.4.1",
     "modal-video": "^2.3.2",
     "particlesjs": "2.2.0",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "waypoints": "^4.0.1"
   }
 }

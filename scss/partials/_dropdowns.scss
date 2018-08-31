@@ -9,6 +9,7 @@ TABLE OF CONTENTS
 =============================================================================
 0. Hover dropdowns
 1. jQuery Dropdowns
+2. Megamenu
 =============================================================================
 ***/
 
@@ -312,6 +313,116 @@ button {
         .jq-dropdown-menu li > a:hover, .jq-dropdown .jq-dropdown-menu label:hover {
             background-color: $accent;
             color: $white;
+        }
+    }
+}
+
+
+/* ==========================================================================
+2. Megamenu
+========================================================================== */
+
+.is-mega {
+    position: static;
+}
+.is-megamenu {
+    padding: 0 !important;
+    .mega-inner {
+        position: relative;
+        padding: 0.5rem 0;
+        .container {
+            z-index: 100;
+            padding: 1rem;
+            overflow: scroll;
+            max-height: 425px;
+        }
+        .column {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .navbar-item {
+            &.is-flex {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                i {
+                    font-size: 1.98rem;
+                    font-weight: 500;
+                    color: $placeholder;
+                    transition: all .3s;
+                }
+                div {
+                    margin: 0 10px;
+                    font-size: .93rem;
+                }
+                &:hover {
+                    @include secondary-gradient-left();
+                    i {
+                        color: $secondary;
+                    }
+                }
+            }
+        }
+    }
+    .menu-image {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 0;
+        height: 220px;
+        img {
+            height: 220px;
+            max-height: none !important;
+        }
+    }
+    .is-footer {
+        padding: 0.375rem 1rem;
+        position: relative;
+        z-index: 2;
+    }
+    p {
+        &.is-cta {
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+        }
+    }
+    .mega-btn {
+        &.primary-btn {
+            background: $primary !important;
+            color: $white;
+        }
+        &.secondary-btn {
+            background: $secondary !important;
+            color: $white;
+        }
+        &.accent-btn {
+            background: $accent !important;
+            color: $white;
+        }
+    }
+    .level-left {
+        .level-item {
+            text-transform: uppercase;
+        }
+    }
+    .social-link {
+        color: $white;
+        margin: 0 5px;
+        i {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .is-mega {
+        .navbar-link {
+            display: none;
+        }
+    }
+    .navbar-item {
+        &.is-flex {
+            flex-direction: column;
         }
     }
 }

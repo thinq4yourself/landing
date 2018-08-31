@@ -184,7 +184,10 @@ gulp.task('compile-js', function() {
         nodepath + 'modal-video/js/modal-video.min.js',
         nodepath + 'jquery.easing/jquery.easing.min.js',
         nodepath + 'slick-carousel/slick/slick.min.js',
+        nodepath + 'waypoints/lib/jquery.waypoints.min.js',
+        nodepath + 'waypoints/lib/shortcuts/sticky.min.js',
         //Additional static js assets
+        assetspath + 'js/scrollspy/scrollspy.min.js',
         assetspath + 'js/ggpopover/ggpopover.min.js',
         assetspath + 'js/ggpopover/ggtooltip.js',
     ])

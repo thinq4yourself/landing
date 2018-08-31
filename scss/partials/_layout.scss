@@ -16,7 +16,7 @@ TABLE OF CONTENTS
 1. Index Hero and Navbar
 2. Main content wrapper
 3. Partners and Client logos
-4. Token page
+4. Program page
 ========================================================================== */
 
 body {
@@ -120,8 +120,6 @@ body {
             &.is-nav-link {
                 a {
                     font-family: 'Cabin', sans-serif;
-                    text-transform: uppercase;
-                    font-size: .75rem;
                 }
             }
             a.is-active {
@@ -142,8 +140,6 @@ body {
                 a {
                     color: $white;
                     font-family: 'Cabin', sans-serif;
-                    text-transform: uppercase;
-                    font-size: .75rem;
                 }
             }
             .navbar-burger span {
@@ -413,7 +409,7 @@ body {
 }
 
 /* ==========================================================================
-4. Token page
+4. Lightarian page
 ========================================================================== */
 
 .token-wrapper {
@@ -647,8 +643,17 @@ body {
                 color: $smoke-white;
             }
         }
+        &.secondary-gradient {
+            width: 100%;
+            @include secondary-gradient-right();
+            color: $white;
+            padding: 20px 40px;
+            border-radius: 6px;
+            animation-delay: .3s;
+        }
     }
 }
+
 
 .login-form {
     padding: 0 40px;
@@ -701,6 +706,11 @@ body {
                 background: #1c004c;
                 transform: translateX(-50%);
             }
+        }
+        .accordion-content ul li {
+            width: 100%;
+            padding-top: 5px;
+            position: static;
         }
 
         ul li::after {
@@ -1277,3 +1287,4 @@ body {
         }
     }
 }
+
