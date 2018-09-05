@@ -27,6 +27,14 @@ body {
     overflow: hidden !important;
 }
 
+a {
+    color: $primary;
+}
+
+a:hover, a:active, a:focus {
+    color: $accent;
+}
+
 a, a:active, i, i:active, div, div:active, div:focus, span:focus, span:active, {
     outline: none !important;
 }

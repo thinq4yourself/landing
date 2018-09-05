@@ -153,5 +153,10 @@ TABLE OF CONTENTS
 ========================================================================== */
 
 @media (max-width: 768px) {
-
+    body {
+        margin-top: 66px;
+    }
+    .navbar-burger {
+        margin-right: 1.3rem;
+    }
 }

@@ -1,5 +1,5 @@
 <!-- Cloned navbar that comes in on scroll -->
-<nav id="navbar-clone" class="navbar is-fixed is-dark navbar-wrapper">
+<nav id="navbar-clone" class="navbar is-fixed is-dark navbar-wrapper is-hidden-mobile">
     <div class="container">
         <!-- Brand -->
         <div class="navbar-brand">
@@ -16,82 +16,7 @@
         </div>
         <!-- Menu -->
         <div id="navbarMenu" class="navbar-menu light-menu">
-            <div class="navbar-end">
-                <!-- Menu item -->
-                <div class="navbar-item is-nav-link">
-                    <a class="is-centered-responsive" href="/#home">Home</a>
-                </div>
-                <!-- Menu item -->
-                <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-link" href="/#healing">
-                        Healing
-                    </a>
-                    {{> healingmenu}}
-                </div>
-                <!-- Menu item -->
-                <div class="navbar-item is-nav-link">
-                    <a class="is-centered-responsive" href="/#activation">Activation</a>
-                </div>
-                        <!-- Menu item -->
-                <div class="navbar-item is-nav-link">
-                    <a class="is-centered-responsive" href="/#mission">Mission </a>
-                </div>
-                <div class="navbar-item has-dropdown is-hoverable is-hidden">
-                    <a class="navbar-link" href="#demos">
-                        Specialties
-                    </a>
-                    <div class="navbar-dropdown is-boxed is-medium">
-                        <!-- Dropdown item -->
-                        <a class="navbar-item is-menu" href="#biofield.html">
-                            <span>Sound & Biofield Healing</span>
-                        </a>
-                        <!-- Dropdown item -->
-                        <a class="navbar-item is-menu" href="#mindfulness.html">
-                            <span>Mindfulness & Meditation</span>
-                        </a>
-                        <!-- Dropdown item -->
-                        <a class="navbar-item is-menu" href="#energy.html">
-                            <span>Energy Medicine</span>
-                        </a>
-
-                    </div>
-                </div>
-                <div class="navbar-item has-dropdown is-hoverable is-hidden-desktop">
-                    <a class="navbar-link is-nav-link" href="#program">
-                        Systems
-                    </a>
-                    <div class="navbar-dropdown is-boxed is-medium light-pad">
-                        <!-- Dropdown item -->
-                        <a class="navbar-item is-menu is-nav-link" href="/lightarian">
-                            <span>Lightarian Healing & Clearing</span>
-                        </a>
-                        <!-- Dropdown item -->
-                        <a class="navbar-item is-menu is-nav-link" href="/lightarian/reiki">
-                            <span>Lightarian & Usui Reiki</span>
-                        </a>
-                        <!-- Dropdown item -->
-                        <a class="navbar-item is-menu is-nav-link" href="/lightarian/training">
-                            <span>Lightarian Training</span>
-                        </a>
-                        <!-- Dropdown item -->
-                        <a class="navbar-item is-menu is-nav-link" href="/jedi">
-                            <span>Jedi Training</span>
-                        </a>
-                        <!-- Dropdown item -->
-                        <a class="navbar-item is-menu is-nav-link" href="/dna">
-                            <span>DNA Activations</span>
-                        </a>
-                    </div>
-                </div>
-                {{> megamenu}}
-                <!-- Sign up -->
-                <div class="navbar-item is-nav-link">
-                    <a target="_blank" href="https://squareup.com/appointments/buyer/widget/73117614-736e-4376-9c3a-969b6bb5e89c/FQ7Q6DG237ABT" data-sumome-listbuilder-id="3c9b4ece-02e9-4f99-854a-7b479e529f71" class="open-messenger wh-widget-button-activator button k-button k-primary raised has-gradient slanted">
-                        <span class="text">Free Discovery Session</span>
-                        <span class="front-gradient"></span>
-                    </a>
-                </div>
-            </div>
+            {{> desktopmenu}}
         </div>
     </div>
 </nav>
