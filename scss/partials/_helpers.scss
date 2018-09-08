@@ -123,8 +123,8 @@ TABLE OF CONTENTS
     color: $secondary !important;
 }
 
-.primary-gradient-text {
-    @include primary-gradient-top(); 
+.tirtuary-gradient-text {
+    @include tirtuary-gradient-top(); 
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent;
 }
