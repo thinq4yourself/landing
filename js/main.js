@@ -265,10 +265,10 @@ $(document).ready(function() {
             $('.flat-testimonials').slick({
                 dots: true,
                 infinite: true,
-                speed: 500,
+                speed: 777,
                 cssEase: 'cubic-bezier(0.645, 0.045, 0.355, 1.000)',
                 autoplay: true,
-                autoplaySpeed: 5000,
+                autoplaySpeed: 7777,
                 arrows: true,
             });
         }
