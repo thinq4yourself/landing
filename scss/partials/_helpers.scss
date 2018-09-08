@@ -29,6 +29,11 @@ TABLE OF CONTENTS
     }
 }
 
+/* Instagram widget */
+.gs-FBP6ai_hWncTWw {
+    margin-bottom: -59px !important;
+}
+
 /* ==========================================================================
 0. Color helpers
 ========================================================================== */
@@ -99,6 +104,22 @@ TABLE OF CONTENTS
 
 .light-bg {
     background: $white !important;
+}
+
+.secondary-link {
+    color: $secondary !important;
+}
+
+.secondary-link:hover {
+    color: $accent !important;
+}
+
+.accent-link {
+    color: $accent !important;
+}
+
+.accent-link:hover {
+    color: $secondary !important;
 }
 
 /* ==========================================================================

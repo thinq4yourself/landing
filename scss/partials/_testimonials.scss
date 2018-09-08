@@ -69,6 +69,15 @@ TABLE OF CONTENTS
 }
 
 //Pagination dots
+.slick-dots li button:before{
+    font-size: 18px;
+    color: $secondary;
+
+}
+
+.slick-dots li {
+    margin: 0 9px;
+}
 .slick-dots li.slick-active button:before {
     opacity: .75;
     color: $accent !important;

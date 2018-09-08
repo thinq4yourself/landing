@@ -267,7 +267,7 @@ $(document).ready(function() {
                 infinite: true,
                 speed: 777,
                 cssEase: 'cubic-bezier(0.645, 0.045, 0.355, 1.000)',
-                autoplay: true,
+                autoplay: false,
                 autoplaySpeed: 7777,
                 arrows: true,
             });
