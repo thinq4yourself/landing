@@ -181,12 +181,12 @@ gulp.task('compile-html:reset', function(done) {
 gulp.task('compile-js', function() {
     return gulp.src([ 
         nodepath + 'jquery/dist/jquery.min.js', 
+        nodepath + 'slick-carousel/slick/slick.min.js',
+        nodepath + 'waypoints/lib/jquery.waypoints.min.js',
         //nodepath + 'particlesjs/dist/particles.min.js',
         nodepath + 'feather-icons/dist/feather.min.js',
         nodepath + 'modal-video/js/modal-video.min.js',
         nodepath + 'jquery.easing/jquery.easing.min.js',
-        nodepath + 'slick-carousel/slick/slick.min.js',
-        nodepath + 'waypoints/lib/jquery.waypoints.min.js',
         nodepath + 'waypoints/lib/shortcuts/sticky.min.js',
         //Additional static js assets
         assetspath + 'js/scrollspy/scrollspy.min.js',

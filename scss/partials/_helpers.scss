@@ -29,6 +29,12 @@ TABLE OF CONTENTS
     }
 }
 
+/* Instagram widget */
+#gs-grid, #gs-grid.has-error {
+    margin-bottom: -59px !important;
+    background: transparent !important;
+}
+
 /* ==========================================================================
 0. Color helpers
 ========================================================================== */
@@ -99,6 +105,28 @@ TABLE OF CONTENTS
 
 .light-bg {
     background: $white !important;
+}
+
+.secondary-link {
+    color: $secondary !important;
+}
+
+.secondary-link:hover {
+    color: $accent !important;
+}
+
+.accent-link {
+    color: $accent !important;
+}
+
+.accent-link:hover {
+    color: $secondary !important;
+}
+
+.primary-gradient-text {
+    @include primary-gradient-top(); 
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
 }
 
 /* ==========================================================================
