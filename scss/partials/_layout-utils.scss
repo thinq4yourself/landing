@@ -58,6 +58,14 @@ section:focus {
     src: url("../fonts/text/nexa/NexaBold.woff") format("woff"), url("../fonts/text/nexa/NexaBold.ttf")  format("truetype");
 }
 
+.content blockquote {
+    background-color: rgba(0,0,0,.33);
+    border-left: 5px solid #00D1B2;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    font-style: italic;
+}
+
 /* ==========================================================================
 1. Back to top button
 ========================================================================== */
