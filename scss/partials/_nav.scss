@@ -46,10 +46,6 @@ TABLE OF CONTENTS
     }
 }
 
-.navbar-dropdown .navbar-item:hover, .navbar-dropdown .navbar-item:active {
-    @include secondary-gradient-right();
-}
-
 @media screen and (min-width: 1024px) {
     .light-pad {
         .navbar-item {
@@ -58,6 +54,15 @@ TABLE OF CONTENTS
         }
     }
 }
+
+.navbar-dropdown .navbar-item:hover, .navbar-dropdown .navbar-item:active {
+    @include secondary-gradient-right();
+}
+
+.navbar-dropdown .navbar-item {
+    padding: 0.11375rem 1rem;
+}
+
 
 /* ==========================================================================
 1. Navbar placeholder
