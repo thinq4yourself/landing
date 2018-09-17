@@ -75,6 +75,7 @@ gulp.task('copy', function() {
     gulp.src([nodepath + 'slick-carousel/slick/ajax-loader.gif']).pipe(gulp.dest('_site/assets/css/'));
     //Copy PDFs
     gulp.src(['assets/lightarian/*']).pipe(gulp.dest('_site/assets/lightarian/'));
+    gulp.src(['assets/about/*']).pipe(gulp.dest('_site/assets/about/'));
 });
 
 //Theme Sass variables

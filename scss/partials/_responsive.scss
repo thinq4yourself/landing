@@ -76,6 +76,17 @@ TABLE OF CONTENTS
 ========================================================================== */
 
 @media (max-width: 767px) {
+    // Section
+    .section {
+        padding: 3rem .88rem;
+    }
+    .section .section {
+        padding: 3rem .33rem;
+    }
+    // doc boxes
+    .token-documentation {
+        padding: 2em 1.2em;
+    }
     //Navbar
     .navbar {
         .navbar-item {
@@ -144,6 +155,10 @@ TABLE OF CONTENTS
         left: -100%;
         transform: translateX(210px);
         top: -86px;
+    }
+    // full width buttons
+    .avatar-countdown .ico-card .button-block {
+        padding: 0;
     }
 }
 
