@@ -21,10 +21,10 @@ $(document).ready(function() {
         // Calculate time until launch date
         timeToLaunch();
         // Transition the current countdown from 0 
-        numberTransition('#jedi-days .timer-number', days, 1000, 'easeOutQuad');
-        numberTransition('#jedi-hours .timer-number', hrs, 1000, 'easeOutQuad');
-        numberTransition('#jedi-minutes .timer-number', min, 1000, 'easeOutQuad');
-        numberTransition('#jedi-seconds .timer-number', sec, 1000, 'easeOutQuad');
+        numberTransition('#avatar-days .timer-number', days, 1000, 'easeOutQuad');
+        numberTransition('#avatar-hours .timer-number', hrs, 1000, 'easeOutQuad');
+        numberTransition('#avatar-minutes .timer-number', min, 1000, 'easeOutQuad');
+        numberTransition('#avatar-seconds .timer-number', sec, 1000, 'easeOutQuad');
         // Begin Countdown
         setTimeout(countDownTimer,1001);
     });
@@ -64,10 +64,10 @@ $(document).ready(function() {
         timeToLaunch();
 
         // Write to countdown component
-        $( "#jedi-days .timer-number" ).text(days);
-        $( "#jedi-hours .timer-number" ).text(hrs);
-        $( "#jedi-minutes .timer-number" ).text(min);
-        $( "#jedi-seconds .timer-number" ).text(sec);
+        $( "#avatar-days .timer-number" ).text(days);
+        $( "#avatar-hours .timer-number" ).text(hrs);
+        $( "#avatar-minutes .timer-number" ).text(min);
+        $( "#avatar-seconds .timer-number" ).text(sec);
 
         // Repeat the check every second
         setTimeout(countDownTimer,1000);
