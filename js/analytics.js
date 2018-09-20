@@ -7,6 +7,6 @@ $( '#$addToCartButton' ).click(function() {
   fbq('track', 'AddToCart');
 })
 
-$('#$addToCartButton').on('click', function(){
+$('#addToCartButton').on('click', function(){
     fbq('track', 'AddToCart');
 })
