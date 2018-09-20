@@ -5,4 +5,8 @@ gtag('config', 'UA-42099274-1');
 
 $( '#$addToCartButton' ).click(function() {
   fbq('track', 'AddToCart');
-}
+})
+
+$('#$addToCartButton').on('click', function(){
+    fbq('track', 'AddToCart');
+})
