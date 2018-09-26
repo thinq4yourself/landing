@@ -6,7 +6,7 @@ $(document).ready(function() {
  * GLOBAL VARS
  * -------------------------- */
     // The date you want to count down to
-    var targetDate = new Date("2019/02/22 02:22:22");   
+    var targetDate = new Date("2018/12/02 02:22:22");   
 
     // Other date related variables
     var days;
