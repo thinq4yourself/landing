@@ -76,6 +76,8 @@ gulp.task('copy', function() {
     //Copy PDFs
     gulp.src(['assets/lightarian/*']).pipe(gulp.dest('_site/assets/lightarian/'));
     gulp.src(['assets/about/*']).pipe(gulp.dest('_site/assets/about/'));
+    //Copy Sitemap
+    gulp.src(['sitemap.xml']).pipe(gulp.dest('_site/'));
 });
 
 //Theme Sass variables
