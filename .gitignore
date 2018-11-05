@@ -8,5 +8,5 @@ blog*.html
 *.original.html
 roadmap.html
 tokens.html
-_tokens
+.tokens
 *.psd
