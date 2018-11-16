@@ -80,6 +80,7 @@ gulp.task('copy', function() {
     gulp.src(['sitemap.xml']).pipe(gulp.dest('_site/'));
     gulp.src(['robots.txt']).pipe(gulp.dest('_site/'));
     gulp.src(['googlea01f48fe45018a19.html']).pipe(gulp.dest('_site/'));
+    gulp.src(['_redirects']).pipe(gulp.dest('_site/'));
 });
 
 //Theme Sass variables
