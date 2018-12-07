@@ -18,6 +18,9 @@ $(document).ready(function($){
         $('#' + modalID + ' .modal-background').toggleClass('scaleInCircle');
         $('#' + modalID + ' .modal-content').toggleClass('scaleIn');
         $('#' + modalID + ' .modal-close').toggleClass('is-hidden');
+        $("#navbar-clone").removeClass('is-active');
+        $("#navbar-mobile").removeClass('is-active');
+        $("#navbar").removeClass('is-active');
         //Prevent sticky fixed nav and backtotop from overlapping modal
         $('#scrollnav, #backtotop').toggleClass('is-hidden');
         //Prevent body from scrolling when scrolling inside modal
@@ -33,6 +36,9 @@ $(document).ready(function($){
         $('#' + modalID + ' .modal-background').toggleClass('scaleInCircle');
         $('#' + modalID + ' .modal-content').toggleClass('scaleIn');
         $('#' + modalID + ' .modal-close').toggleClass('is-hidden');
+        $("#navbar-clone").addClass('is-active');
+        $("#navbar-mobile").addClass('is-active');
+        $("#navbar").addClass('is-active');
         //Restore native body scroll
         if ($('.dashboard-wrapper').length) {
             $('body').removeClass('is-fixed');

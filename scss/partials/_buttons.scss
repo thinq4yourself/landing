@@ -253,7 +253,7 @@ TABLE OF CONTENTS
     //outlined button
     &.btn-outlined {
         border-color: $primary;
-        color: $primary !important;
+        color: $primary;
         background-color: transparent; 
         &:hover {
             color: $white;
@@ -283,7 +283,7 @@ TABLE OF CONTENTS
     //outlined button
     &.btn-outlined {
         border-color: $secondary;
-        color: $secondary !important;
+        color: $secondary;
         background-color: transparent; 
         &:hover {
             color: $white !important;
