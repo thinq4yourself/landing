@@ -188,6 +188,174 @@ TABLE OF CONTENTS
         font-size: 16px;
     }
     //card backgound colors
+    //Primary Think For Yourself button
+    &.k-primary {
+        color: $white;
+        //Gradient modifier
+        &.has-gradient {
+            position: relative;
+            transition: all .6s ease-out !important;
+            border: none !important;
+            @include primary-gradient-top();
+            opacity: 1;
+            z-index: 0;
+            .text {
+                position: relative;
+                display: block;
+                z-index: 3;
+                opacity: 1 !important;
+            }
+            //Hover state
+            &:hover {
+                .front-gradient {
+                    opacity: 0;
+                }
+            }
+            //Gradient front element
+            .front-gradient {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                border-radius: 3px;
+                @include primary-gradient-right();
+                opacity: 1;
+                transition: all .6s ease-out !important;
+                z-index: 1;
+            }
+            //Rounded modifier
+            &.rounded {
+                .front-gradient {
+                    border-radius: 1000px;
+                }
+            }
+            //Raised modifier
+            &.raised {
+                &:hover {
+                    box-shadow: $primary-box-shadow !important;
+                    opacity: 0.95;
+                }
+            }
+            //Submit modifier
+            &.is-submit {
+                &:hover {
+                    transform: translateY(-10px);
+                }
+            }
+        }
+    }
+    //Secondary Think For Yourself button
+    &.k-secondary {
+        color: $white;
+        //Gradient modifier
+        &.has-gradient {
+            position: relative;
+            transition: all .6s ease-out !important;
+            border: none !important;
+            @include secondary-gradient-right();
+            opacity: 1;
+            z-index: 0;
+            .text {
+                position: relative;
+                display: block;
+                z-index: 3;
+                opacity: 1 !important;
+            }
+            //Hover state
+            &:hover {
+                .front-gradient {
+                    opacity: 0;
+                }
+            }
+            //Gradient front element
+            .front-gradient {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                border-radius: 3px;
+                @include secondary-gradient-left();
+                opacity: 1;
+                transition: all .6s ease-out !important;
+                z-index: 1;
+            }
+            //Rounded modifier
+            &.rounded {
+                .front-gradient {
+                    border-radius: 1000px;
+                }
+            }
+            //Raised modifier
+            &.raised {
+                &:hover {
+                    box-shadow: $secondary-box-shadow !important;
+                    opacity: 0.95;
+                }
+            }
+        }
+    }
+    //Tirtuary Think For Yourself button
+    &.k-tirtuary {
+        color: $white;
+        //Gradient modifier
+        &.has-gradient {
+            position: relative;
+            transition: all .6s ease-out !important;
+            border: none !important;
+            @include secondary-gradient-left();
+            opacity: 1;
+            z-index: 0;
+            .text {
+                position: relative;
+                display: block;
+                z-index: 3;
+                opacity: 1 !important;
+            }
+            //Hover state
+            &:hover {
+                .front-gradient {
+                    opacity: 0;
+                }
+            }
+            //Gradient front element
+            .front-gradient {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                border-radius: 3px;
+                @include secondary-gradient-right();
+                opacity: 1;
+                transition: all .6s ease-out !important;
+                z-index: 1;
+            }
+            //Rounded modifier
+            &.rounded {
+                .front-gradient {
+                    border-radius: 1000px;
+                }
+            }
+            //Raised modifier
+            &.raised {
+                &:hover {
+                    box-shadow: $secondary-box-shadow !important;
+                    opacity: 0.95;
+                }
+            }
+        }
+    }
     &.primary-card {
         background: $primary;
         .content, .content h2 {

@@ -93,8 +93,8 @@ $reddit: #ff4500;
 ========================================================================== */
 
 // Modal gradient
-$modal-ga: #6a85b6;
-$modal-gb: #bac8e0;
+$modal-ga: $secondary-accent;
+$modal-gb: $secondary;
 
 $webkit-modal-gradient: -webkit-linear-gradient(45deg, $modal-ga 0%, $modal-gb 100%);
 $modal-gradient: linear-gradient(45deg, $modal-ga 0%, $modal-gb 100%);

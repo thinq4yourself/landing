@@ -20,6 +20,7 @@ TABLE OF CONTENTS
 .modal {
     transition: all 0.5s;
     transform: scale(0);
+    z-index: 97 !important;
     //modal content default styles
     .modal-content {
         transition: all 0.4s;
@@ -120,6 +121,9 @@ TABLE OF CONTENTS
             }
         }
         //card body
+        .modal-card-body {
+            background-color: $grey-white;
+        }
         .modal-card-body::-webkit-scrollbar {
             width: 10px;
         }
@@ -195,5 +199,11 @@ TABLE OF CONTENTS
         .modal-card, .modal-content {
             width: 400px !important;
         }
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .modal-card {
+        max-height: calc(100vh - 160px);
     }
 }
