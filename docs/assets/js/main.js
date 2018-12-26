@@ -199,14 +199,14 @@ $(document).ready(function() {
                     }
                 },
                 "color": {
-                    "value": ["#5507fc"]
+                    "value": ["#63384a"]
                 },
 
                 "shape": {
                     "type": "circle",
                     "stroke": {
                         "width": 5,
-                        "color": "#5507fc"
+                        "color": "#63384a"
                     },
                     "polygon": {
                         "nb_sides": 5
@@ -240,7 +240,7 @@ $(document).ready(function() {
                 "line_linked": {
                     "enable": true,
                     "distance": 120,
-                    "color": "#5507fc",
+                    "color": "#63384a",
                     "opacity": 0.2,
                     "width": 1.6
                 },
