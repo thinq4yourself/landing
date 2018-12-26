@@ -29,7 +29,7 @@ body {
 ========================================================================== */
 
 .dark-wrapper {
-    background: url(../images/bg/gradient-left-darker.png) repeat top left,url(../images/bg/gradient-right-darker.png) repeat top right,#1c004c;
+    background: url(../images/bg/gradient-left-darker-dark.png) repeat top left,url(../images/bg/gradient-right-darker-dark.png) repeat top right,#453e55;
 }
 
 .hero, .section {
@@ -170,7 +170,7 @@ body {
             }
             //Dark modifier
             &.is-dark {
-                background: #2d0275 !important;
+                background: #0f0330 !important;
                 &.is-nav-link {
                     a {
                         color: $white;
@@ -181,7 +181,7 @@ body {
                 }
                 .navbar-menu {
                     &.is-active {
-                        background: #2d0275 !important;
+                        background: #0f0330 !important;
                     }
                 }
             }
@@ -249,16 +249,16 @@ body {
     }
     //Background colors
     &.is-dark {
-        background: #3c019e;
+        background: #393146;
     }
     &.is-darker {
-        background: #320184;
+        background: #5c5a71;
     }
     &.is-darkest {
         background: #270068;
     }
     &.is-end {
-        background: #1c004c;
+        background: #453e55;
     }
     //Background shapes
     .has-bg-shapes {
@@ -273,12 +273,12 @@ body {
 
 //Radial gradient background
 .has-big-gradient {
-    background: url(../images/bg/gradient-left.png) no-repeat top left,url(../images/bg/gradient-right.png) no-repeat top right,#320184;
+    background: url(../images/bg/gradient-left-dark.png) no-repeat top left,url(../images/bg/gradient-right-dark.png) no-repeat top right,#5c5a71;
 }
 
 //Dark radial gradient background
 .has-big-dark-gradient {
-    background: url(../images/bg/gradient-left-darker.png) no-repeat top left,url(../images/bg/gradient-right-darker.png) no-repeat top right,#1c004c;
+    background: url(../images/bg/gradient-left-darker-dark.png) no-repeat top left,url(../images/bg/gradient-right-darker-dark.png) no-repeat top right,#453e55;
 }
 
 //CTA Spacing
@@ -315,7 +315,7 @@ body {
         padding: 10px;
         border-radius: 3px;
         color: $white;
-        background: darken(#1c004c, 5%);
+        background: darken(#453e55, 5%);
         opacity: 0.7;
     }
 }
@@ -414,7 +414,7 @@ body {
 ========================================================================== */
 
 .token-wrapper {
-    background: url(../images/bg/bg-token-top.png) no-repeat top center,url(../images/bg/bg-token-left.png) no-repeat top left,url(../images/bg/bg-token-bottom.png) no-repeat bottom right,#1c004c;
+    background: url(../images/bg/bg-token-top.png) no-repeat top center,url(../images/bg/bg-token-left.png) no-repeat top left,url(../images/bg/bg-token-bottom.png) no-repeat bottom right,#453e55;
 }
 
 .token-wrapper {
@@ -673,7 +673,7 @@ body {
 ========================================================================== */
 
 .roadmap-wrapper {
-    background: url(../images/bg/bg-token-top.png) no-repeat top center,url(../images/bg/bg-token-left.png) no-repeat top left,url(../images/bg/bg-token-bottom.png) no-repeat bottom right,#1c004c;
+    background: url(../images/bg/bg-token-top.png) no-repeat top center,url(../images/bg/bg-token-left.png) no-repeat top left,url(../images/bg/bg-token-bottom.png) no-repeat bottom right,#453e55;
 }
 
 .roadmap-wrapper {
@@ -711,7 +711,7 @@ body {
                 -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,.5), 0 0 25px 0 rgba(18,60,255,.16);
                 box-shadow: 0 2px 3px 0 rgba(0,0,0,.5), 0 0 25px 0 rgba(18,60,255,.16);
                 border-radius: 50%;
-                background: #1c004c;
+                background: #453e55;
                 transform: translateX(-50%);
             }
         }
@@ -928,7 +928,7 @@ body {
 ========================================================================== */
 
 .media-wrapper {
-    background: url(../images/bg/gradient-left-darker.png) no-repeat top left,url(../images/bg/gradient-right-darker.png) no-repeat top right,#1c004c;
+    background: url(../images/bg/gradient-left-darker-dark.png) no-repeat top left,url(../images/bg/gradient-right-darker-dark.png) no-repeat top right,#453e55;
 }
 
 .media-wrapper {
@@ -1055,9 +1055,9 @@ body {
             min-height:40px;
             display:flex;
             align-items:center;
-            background: #1c004c;
+            background: #453e55;
             color: $white;
-            border-top: 1px solid lighten(#1c004c, 5%);
+            border-top: 1px solid lighten(#453e55, 5%);
             position:absolute;
             top:0;
             width: 100%;
@@ -1073,7 +1073,7 @@ body {
         }
 
         .option:hover {
-            background: lighten(#1c004c, 2%);
+            background: lighten(#453e55, 2%);
         }
 
         .select:focus .option {
@@ -1090,7 +1090,7 @@ body {
         input:checked + label {
             order: 1;
             z-index: 2;
-            background: #1c004c;
+            background: #453e55;
             border-top: none;
             position: relative;
         }
@@ -1115,7 +1115,7 @@ body {
             height: 40px;
             width: 40px;
             content: '';
-            background:#1c004c;
+            background:#453e55;
         }
     }
 
