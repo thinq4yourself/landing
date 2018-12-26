@@ -17,10 +17,10 @@ TABLE OF CONTENTS
 0. Color Variables
 ========================================================================== */
 
-$primary: #7F00FF;
-$primary-accent: #3f00fc;
-$secondary: #00ff99;
-$secondary-accent: #33ccff;
+$primary: #453863;
+$primary-accent: #63384a;
+$secondary: #0e7a53;
+$secondary-accent: #375a6c;
 
 /* ==========================================================================
 1. Shadow variables
@@ -100,6 +100,6 @@ $secondary-box-shadow:  0 14px 26px -12px $secondary-shadow-from, 0 4px 23px 0px
 
 @mixin tirtuary-gradient-top(){
     background: $secondary-accent;
-    background: -webkit-linear-gradient(to top, $secondary-accent, $green) !important;
-    background: linear-gradient(to top, $secondary-accent, $green) !important; 
+    background: -webkit-linear-gradient(to top, $secondary-accent, $primary-accent) !important;
+    background: linear-gradient(to top, $secondary-accent, $primary-accent) !important; 
 }
