@@ -63,8 +63,28 @@ TABLE OF CONTENTS
             color: $secondary !important;
         }
     }
+    //accent colors
+    &.is-accent {
+        input.material-input:focus ~ label, input:valid ~ label, textarea:focus ~ label {
+            color: $accent;
+        }
+        input, textarea {
+            color: $white;
+            border-bottom: 1px solid rgba(255,255,255,0.2) !important;
+        }
+        .bar:before {
+            @include secondary-gradient-right();
+        }
+        .bar:after {
+            @include secondary-gradient-left();
+        }
+        &.has-icon input:focus ~ i {
+            color: $accent !important;
+        }
+    }
     //Common material styles
     input.material-input, textarea {
+        color: $white;
         width: 100% !important;
         font-size:18px;
         padding:0.625em  0.625em 0.625em 0.3125em;
@@ -125,8 +145,8 @@ TABLE OF CONTENTS
 }
 
 //Input and textareas text colors
-.control-material textarea {
-    color: $white;
+.control-material textarea, .control-material input {
+    color: $white !important;
 }
 
 

@@ -28,11 +28,11 @@ body {
 }
 
 a {
-    color: $secondary-accent;
+    color: $primary-link;
 }
 
 a:hover, a:active, a:focus {
-    color: $accent;
+    color: $secondary-link;
 }
 
 a, a:active, i, i:active, div, div:active, div:focus, span:focus, span:active, {

@@ -42,7 +42,7 @@ TABLE OF CONTENTS
         margin: auto;
         color: #333;
         box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
-        background: rgba(60,1,158, 0.6);
+        background: rgba(63,51,113, 0.6);
         font-family: 'Open Sans', sans-serif;
         font-size: 14px;
         border-radius: 6px;
@@ -51,7 +51,7 @@ TABLE OF CONTENTS
         -webkit-transition: all .3s ease;
         transition: all .3s ease;
         &:hover {
-            box-shadow: 0 10px 50px 0 rgba(60, 1, 158, 0.6) !important;
+            box-shadow: 0 10px 50px 0 rgba(65, 121, 131, 0.6) !important;
             -webkit-transition: all .3s ease;
             transition: all .3s ease;
         }
@@ -159,7 +159,7 @@ TABLE OF CONTENTS
         }
     }
     p {
-        color: rgba(94,147,255,.9);
+        color: $fade-text;
     }
 }
 

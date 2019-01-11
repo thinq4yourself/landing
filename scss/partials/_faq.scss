@@ -27,9 +27,9 @@ TABLE OF CONTENTS
         position: relative;
         margin-bottom: 1em;
         background: rgba(17,149,247,.08);
-        border: 1px solid rgba(0,83,251,.5);
-        -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,.5), 0 0 25px 0 rgba(18,60,255,.16);
-        box-shadow: 0 2px 3px 0 rgba(0,0,0,.5), 0 0 25px 0 rgba(18,60,255,.16);
+        border: 1px solid rgba(26,165,190,.5);
+        -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,.5), 0 0 25px 0 rgba(33,49,52,.16);
+        box-shadow: 0 2px 3px 0 rgba(0,0,0,.5), 0 0 25px 0 rgba(33,49,52,.16);
         .accordion-title,
         .accordion-content {
             backface-visibility: hidden;
@@ -68,7 +68,7 @@ TABLE OF CONTENTS
                 padding: 0.5em 1em 1em;
                 font-size: 0.9em;
                 line-height: 1.5;
-                color: rgba(94,147,255,.9);
+                color: $placeholder;
             }
         }
         //Behaviour

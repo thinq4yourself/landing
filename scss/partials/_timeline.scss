@@ -205,7 +205,7 @@ TABLE OF CONTENTS
         -o-transform: translateX(-100%);
         transform: translateX(-100%);
         padding: 40px;
-        background: rgba(39, 0, 104, 0.4);
+        background: rgba(54, 35, 41, 0.4);
         border-radius: 4px;
         color: $white;
         opacity: 0;
@@ -276,7 +276,7 @@ TABLE OF CONTENTS
         }
         p {
             font-size: .9rem;
-            color: rgba(94,147,255,.9);
+            color: $light-blue-grey;
         }
     }
 }

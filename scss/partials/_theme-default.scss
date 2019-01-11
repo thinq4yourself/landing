@@ -20,7 +20,9 @@ TABLE OF CONTENTS
 $primary: #453863;
 $primary-accent: #63384a;
 $secondary: #0e7a53;
-$secondary-accent: #375a6c;
+$secondary-accent: #285a74;
+$primary-link: #16be81;
+$secondary-link: #1aa5be;
 
 /* ==========================================================================
 1. Shadow variables
@@ -58,8 +60,8 @@ $secondary-box-shadow:  0 14px 26px -12px $secondary-shadow-from, 0 4px 23px 0px
 ========================================================================== */
 
 @mixin theme-hero-gradient(){
-    background-image: -webkit-linear-gradient(to bottom, #5202d8 0%, #3c019e 100%);
-    background-image: linear-gradient(to bottom, #5202d8 0%, #3c019e 100%);
+    background-image: -webkit-linear-gradient(to bottom, #34295c 0%, #322a3f 100%);
+    background-image: linear-gradient(to bottom, #34295c 0%, #322a3f 100%);
 }
 
 @mixin primary-gradient-top(){

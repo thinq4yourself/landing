@@ -596,12 +596,12 @@ box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
             color: $white;
         }
         ul li:hover a {
-            color: $primary;
-            border-bottom-color: $primary;
+            color: $accent;
+            border-bottom-color: $accent;
         }
         ul li.is-active a {
-            color: $primary;
-            border-bottom: 2px solid $primary;
+            color: $accent;
+            border-bottom: 2px solid $accent;
         }
         ul li a.there {
             color: $primary;
