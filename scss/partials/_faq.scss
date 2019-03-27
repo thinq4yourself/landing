@@ -54,6 +54,7 @@ TABLE OF CONTENTS
             width: 2px;
             height: 0.75em;
             @include primary-gradient-right();
+            background: linear-gradient(to right, #453863, #fff) !important;
             transition: all 0.2s;
         }
         .accordion-title:after {
