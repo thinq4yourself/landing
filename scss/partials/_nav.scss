@@ -355,6 +355,9 @@ transition: all 0.3s;
         }
         .navbar-item {
             color: $blue-grey;
+            img {
+                max-height: 1.1rem;
+            }
         }
     }
     //Active Transparent navbar modifiers

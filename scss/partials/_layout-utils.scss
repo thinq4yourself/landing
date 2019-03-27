@@ -72,11 +72,11 @@ section:focus {
 
 #backtotop {
     position: fixed;
-    right: 0;
+    left: 0;
     opacity: 0;
     visibility: hidden;
-    bottom: 99px;
-    margin: 0 33px 0 0;
+    bottom: 15px;
+    margin: 0 0 0 15px;
     z-index: 9999;
     transition: 0.35s;
     transform: scale(0.7);

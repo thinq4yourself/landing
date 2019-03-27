@@ -373,7 +373,7 @@ body {
 .divider {
     height: 3px;
     width: 75px;
-    @include primary-gradient-left();
+    @include secondary-gradient-left();
     margin: 20px 0;
     //Centered modifier
     &.is-centered {
