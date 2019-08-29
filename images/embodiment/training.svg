@@ -473,8 +473,8 @@
             <polygon id="Fill-127" fill="url(#linearGradient-59)" points="14.6251994 65.5504755 14.5904539 65.4210717 14.7198141 65.386849 36.7126519 78.1796812 36.7463284 78.3090855 36.6650773 78.3561414"></polygon>
             <path d="M4.43117489,21.5074098 C5.69209217,20.846932 6.41260841,20.4866739 6.59272362,20.4266355 C6.86767687,20.3349844 6.05233644,20.9670227 6.05233644,20.9670227 C6.05233644,20.9670227 5.51194925,21.1471517 4.43117489,21.5074098 Z" id="Line-3" stroke="#9CD97A" stroke-width="0.7" stroke-linecap="square"></path>
         </g>
-        <text id="Avatar-Training" font-family="Futura-Medium, Futura" font-size="30" font-weight="400" fill="#FFFFFF">
-            <tspan x="25.381193" y="532.674912">Avatar Light Training</tspan>
+        <text id="Embodiment-Training" font-family="Futura-Medium, Futura" font-size="30" font-weight="400" fill="#FFFFFF">
+            <tspan x="25.381193" y="532.674912">Embodiment Light Training</tspan>
         </text>
     </g>
 </svg>

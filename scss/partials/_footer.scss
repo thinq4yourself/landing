@@ -56,7 +56,6 @@ TABLE OF CONTENTS
     .footer-columns {
         padding: 40px 0;
         position: relative;
-        z-index: 1;
         //Subscribe form
         .subscribe-block {
             //Title
@@ -174,7 +173,6 @@ TABLE OF CONTENTS
         color: $secondary;
         font-family: 'Open Sans', sans-serif;
         font-size: .85rem;
-        z-index: 2;
     }
     //Coded by section
     .coded-by {
@@ -182,7 +180,6 @@ TABLE OF CONTENTS
         color: $white;
         font-family: 'Open Sans', sans-serif;
         font-size: .7rem;
-        z-index: 2;
         a {
             color: $secondary;
         }

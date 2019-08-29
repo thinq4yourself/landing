@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="900px" height="557px" viewBox="0 0 900 557" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
-    <title>Jedi Preparation</title>
+    <title>Embodiment Preparation</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
@@ -230,7 +230,7 @@
             <stop stop-color="#B4EC51" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g id="Jedi-Preparation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="Embodiment-Preparation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect id="Rectangle-path" fill="url(#linearGradient-1)" fill-rule="nonzero" x="0" y="-1" width="900" height="563"></rect>
         <g id="Group-2" transform="translate(234.500000, 12.000000)">
             <g id="Group" transform="translate(20.698021, 292.529496)" fill-rule="nonzero">
@@ -352,7 +352,7 @@
             <path d="M4.43117489,21.5074098 C5.69209217,20.846932 6.41260841,20.4866739 6.59272362,20.4266355 C6.86767687,20.3349844 6.05233644,20.9670227 6.05233644,20.9670227 C6.05233644,20.9670227 5.51194925,21.1471517 4.43117489,21.5074098 Z" id="Line-3" stroke="#9CD97A" stroke-width="0.7" stroke-linecap="square"></path>
         </g>
         <text font-family="Futura-Medium, Futura" font-size="30" font-weight="400" fill="#FFFFFF">
-            <tspan x="25.518228" y="530.884061">Jedi Preparation</tspan>
+            <tspan x="25.518228" y="530.884061">Embodiment Preparation</tspan>
         </text>
     </g>
 </svg>
