@@ -27,6 +27,10 @@ TABLE OF CONTENTS
         right: 0;
         max-width: 50%;
         z-index: 0;
+        opacity: .75;
+    }
+    .footer-content {
+        z-index: 1;
     }
     //Footer logo
     .footer-logo {
