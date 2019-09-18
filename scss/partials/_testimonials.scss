@@ -183,7 +183,8 @@ TABLE OF CONTENTS
         //Content
         .testimonial-text {
             .quoted-text {
-                color: $basaltic-grey;
+                color: $white;
+                opacity: .8;
             }
             .client-name {
                 margin-top: 20px;
