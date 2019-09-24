@@ -1,7 +1,7 @@
 {
   "name": "think-for-yourself",
   "version": "1.4.2",
-  "description": "Main site for thinqforyourself.com",
+  "description": "Main site for loveisthemedicine.org/loveisthemedicine.org",
   "main": "Gruntfile.js",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
@@ -30,9 +30,9 @@
   },
   "bugs": {
     "url": "https://github.com/thinq4yourself/landing/issues",
-    "email": "hello@thinqforyourself.com"
+    "email": "onetribe@loveisthemedicine.org"
   },
-  "author": "Think For Yourself <hello@thinqforyourself.com> (https://thinqforyourself.com)",
+  "author": "Love is the Medicine <onetribe@loveisthemedicine.org> (https://loveisthemedicine.org)",
   "license": "Commercial",
   "private": true,
   "dependencies": {

@@ -3,4 +3,4 @@ User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
 Disallow: /assets/
-Sitemap: https://thinqforyourself.com/sitemap.xml
+Sitemap: https://loveisthemedicine.org/sitemap.xml
