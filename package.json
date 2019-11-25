@@ -1,6 +1,6 @@
 {
   "name": "think-for-yourself",
-  "version": "1.4.2",
+  "version": "2.0.0",
   "description": "Main site for loveisthemedicine.org/loveisthemedicine.org",
   "main": "Gruntfile.js",
   "devDependencies": {
@@ -32,7 +32,7 @@
     "url": "https://github.com/thinq4yourself/landing/issues",
     "email": "onetribe@loveisthemedicine.org"
   },
-  "author": "Love is the Medicine <onetribe@loveisthemedicine.org> (https://loveisthemedicine.org)",
+  "author": "Thinq for Yourself <onetribe@loveisthemedicine.org> (https://loveisthemedicine.org)",
   "license": "Commercial",
   "private": true,
   "dependencies": {
