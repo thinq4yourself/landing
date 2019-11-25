@@ -276,7 +276,7 @@ textarea.textarea {
     //primary colors
     &.is-primary {
         input.material-input:focus ~ label, input:valid ~ label, textarea:focus ~ label {
-            color: $primary;
+            color: $accent;
         }
         .bar:before, .bar:after {
             background: $primary;

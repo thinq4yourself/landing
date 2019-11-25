@@ -1,4 +1,4 @@
-/*! _buttons.scss | Love is the Medicine */
+/*! _buttons.scss | Thinq for Yourself */
 
 /* ==========================================================================
 Button styles
@@ -13,12 +13,12 @@ TABLE OF CONTENTS
 ***/
 
 /* ==========================================================================
-0. Love is the Medicine button
+0. Thinq for Yourself button
 ========================================================================== */
 
 //Base class
 .button {
-    //Love is the Medicine modifier
+    //Thinq for Yourself modifier
     &.k-button {
         min-width: 130px;
         font-size: .85rem;
@@ -61,7 +61,7 @@ TABLE OF CONTENTS
             z-index: 3;
         }
     }
-    //Primary Love is the Medicine button
+    //Primary Thinq for Yourself button
     &.k-primary {
         color: $white;
         //Gradient modifier
@@ -121,7 +121,7 @@ TABLE OF CONTENTS
             }
         }
     }
-    //Secondary Love is the Medicine button
+    //Secondary Thinq for Yourself button
     &.k-secondary {
         color: $white;
         //Gradient modifier
@@ -175,7 +175,7 @@ TABLE OF CONTENTS
             }
         }
     }
-    //Tirtuary Love is the Medicine button
+    //Tirtuary Thinq for Yourself button
     &.k-tirtuary {
         color: $white;
         //Gradient modifier
