@@ -70,6 +70,7 @@ gulp.task('copy', function() {
     gulp.src(['assets/fonts/*']).pipe(gulp.dest('_site/assets/fonts/'));
     //Copy other external font assets
     gulp.src(['html/pages/.well-known/*']).pipe(gulp.dest('_site/.well-known/'));
+    gulp.src(['html/pages/.well-known/matrix/*']).pipe(gulp.dest('_site/.well-known/matrix/'));
     // Slick carousel
     gulp.src([nodepath + 'slick-carousel/slick/fonts/**/*']).pipe(gulp.dest('_site/assets/css/fonts/'));
     gulp.src([nodepath + 'slick-carousel/slick/ajax-loader.gif']).pipe(gulp.dest('_site/assets/css/'));
