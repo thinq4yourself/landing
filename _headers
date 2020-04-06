@@ -1,0 +1,8 @@
+# a path:
+/.well-known/matrix/server
+  # headers for that path:
+  Access-Control-Allow-Origin: *
+# another path:
+/.well-known/matrix/client
+  # headers for that path:
+  Access-Control-Allow-Origin: *
