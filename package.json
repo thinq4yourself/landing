@@ -1,6 +1,6 @@
 {
   "name": "think-for-yourself",
-  "version": "2.2.2",
+  "version": "3.3.3",
   "description": "Main site for loveisthemedicine.org/loveisthemedicine.org",
   "main": "Gruntfile.js",
   "devDependencies": {
